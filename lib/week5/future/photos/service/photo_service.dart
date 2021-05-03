@@ -3,8 +3,8 @@
 
 import 'dart:io';
 
-import 'package:acm_hacettepe/week5/future/photos/model/photos_model.dart';
-import 'package:acm_hacettepe/week5/future/photos/service/IPhotosService.dart';
+import '../model/photos_model.dart';
+import 'IPhotosService.dart';
 import 'package:dio/dio.dart';
 
 part 'photos_service_path.dart';

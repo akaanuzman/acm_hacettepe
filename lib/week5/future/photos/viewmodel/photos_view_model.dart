@@ -1,10 +1,11 @@
-import 'package:acm_hacettepe/week5/core/constants/network/application_constants.dart';
-import 'package:acm_hacettepe/week5/future/photos/model/photos_model.dart';
-import 'package:acm_hacettepe/week5/future/photos/service/IPhotosService.dart';
-import 'package:acm_hacettepe/week5/future/photos/service/photo_service.dart';
 import 'package:dio/dio.dart';
-import 'package:logger/logger.dart';
 import 'package:mobx/mobx.dart';
+
+import '../../../core/constants/network/application_constants.dart';
+import '../model/photos_model.dart';
+import '../service/IPhotosService.dart';
+import '../service/photo_service.dart';
+
 part 'photos_view_model.g.dart';
 
 class PhotosViewModel = _PhotosViewModelBase with _$PhotosViewModel;

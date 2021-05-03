@@ -1,7 +1,8 @@
-import 'package:acm_hacettepe/week4/core/exception/env_not_found.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
+
+import '../exception/env_not_found.dart';
 
 class NetworkManager {
   static NetworkManager? _instance;

@@ -1,9 +1,10 @@
-import 'package:acm_hacettepe/week5/future/photos/viewmodel/photos_view_model.dart';
-import 'package:acm_hacettepe/week5/product/manager/shop/shop_manager.dart';
-import 'package:acm_hacettepe/week5/product/widgets/photo_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:provider/provider.dart';
+
+import '../../../product/manager/shop/shop_manager.dart';
+import '../../../product/widgets/photo_card.dart';
+import '../viewmodel/photos_view_model.dart';
 
 class PhotosView extends StatelessWidget {
   final _viewModel = PhotosViewModel();

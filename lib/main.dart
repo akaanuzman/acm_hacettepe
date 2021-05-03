@@ -1,10 +1,10 @@
-import 'package:acm_hacettepe/week4/feature/task/view/task_view.dart';
-import 'package:acm_hacettepe/week5/core/theme/light_theme.dart';
-import 'package:acm_hacettepe/week5/future/tabbar/app_tabbar.dart';
-import 'package:acm_hacettepe/week5/product/manager/shop/shop_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart' as dotenv;
 import 'package:provider/provider.dart';
+
+import 'week5/core/theme/light_theme.dart';
+import 'week5/future/tabbar/app_tabbar.dart';
+import 'week5/product/manager/shop/shop_manager.dart';
 
 Future<void> main() async {
   await dotenv.load(fileName: '.env');

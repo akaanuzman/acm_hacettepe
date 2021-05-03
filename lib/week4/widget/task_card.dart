@@ -1,5 +1,6 @@
-import 'package:acm_hacettepe/week4/feature/task/model/task_model.dart';
 import 'package:flutter/material.dart';
+
+import '../feature/task/model/task_model.dart';
 
 class TaskCard extends StatelessWidget {
   final TaskModel taskModel;

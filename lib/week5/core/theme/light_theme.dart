@@ -1,6 +1,6 @@
-import 'package:acm_hacettepe/week5/core/color/color_theme.dart';
 import 'package:flutter/material.dart';
 
+import '../color/color_theme.dart';
 import 'ITheme.dart';
 
 class LightTheme extends ITheme {

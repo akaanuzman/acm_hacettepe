@@ -1,9 +1,10 @@
 
 import 'dart:io';
 
-import 'package:acm_hacettepe/week4/feature/task/model/task_model.dart';
-import 'package:acm_hacettepe/week4/feature/task/service/ITaskService.dart';
 import 'package:dio/dio.dart';
+
+import '../model/task_model.dart';
+import 'ITaskService.dart';
 
 part 'task_service_endpoints.dart';
 

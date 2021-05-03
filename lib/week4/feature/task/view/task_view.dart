@@ -1,8 +1,9 @@
-import 'package:acm_hacettepe/week4/core/enum/life_state_enum.dart';
-import 'package:acm_hacettepe/week4/feature/task/viewmodel/task_view_model.dart';
-import 'package:acm_hacettepe/week4/widget/task_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+
+import '../../../core/enum/life_state_enum.dart';
+import '../../../widget/task_card.dart';
+import '../viewmodel/task_view_model.dart';
 
 class TaskView extends StatelessWidget {
   final TaskViewModel _viewModel = TaskViewModel();

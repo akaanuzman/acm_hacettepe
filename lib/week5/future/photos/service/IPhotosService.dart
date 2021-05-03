@@ -1,5 +1,6 @@
-import 'package:acm_hacettepe/week5/future/photos/model/photos_model.dart';
 import 'package:dio/dio.dart';
+
+import '../model/photos_model.dart';
 
 abstract class IPhotoService {
   final Dio dio;

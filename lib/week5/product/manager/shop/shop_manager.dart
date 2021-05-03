@@ -1,6 +1,7 @@
-import 'package:acm_hacettepe/week5/future/photos/model/photos_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:logger/logger.dart';
+
+import '../../../future/photos/model/photos_model.dart';
 
 class ShopManager extends ChangeNotifier {
   List<PhotoModel> shopPhotoItems = [];

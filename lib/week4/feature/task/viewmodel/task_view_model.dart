@@ -1,10 +1,12 @@
-import 'package:acm_hacettepe/week4/core/enum/life_state_enum.dart';
-import 'package:acm_hacettepe/week4/core/network/network_manager.dart';
-import 'package:acm_hacettepe/week4/feature/task/model/task_model.dart';
-import 'package:acm_hacettepe/week4/feature/task/service/ITaskService.dart';
-import 'package:acm_hacettepe/week4/feature/task/service/task_service.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:mobx/mobx.dart';
+
+import '../../../core/enum/life_state_enum.dart';
+import '../../../core/network/network_manager.dart';
+import '../model/task_model.dart';
+import '../service/ITaskService.dart';
+import '../service/task_service.dart';
+
 part 'task_view_model.g.dart';
 
 class TaskViewModel = _TaskViewModelBase with _$TaskViewModel;

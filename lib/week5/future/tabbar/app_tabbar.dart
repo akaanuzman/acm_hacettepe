@@ -1,7 +1,8 @@
-import 'package:acm_hacettepe/week5/future/basket_view.dart';
-import 'package:acm_hacettepe/week5/future/photos/view/photos_view.dart';
-import 'package:acm_hacettepe/week5/future/tabbar/model/tab_model.dart';
 import 'package:flutter/material.dart';
+
+import '../basket_view.dart';
+import '../photos/view/photos_view.dart';
+import 'model/tab_model.dart';
 
 class AppTabBar extends StatelessWidget {
   final List<TabModel> tabsItem = [

@@ -1,9 +1,7 @@
-
-
-import 'package:acm_hacettepe/week5/product/manager/shop/shop_manager.dart';
-import 'package:acm_hacettepe/week5/product/widgets/photo_card.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../product/manager/shop/shop_manager.dart';
+import '../product/widgets/photo_card.dart';
 
 class BasketView extends StatelessWidget {
   final String title = 'Basket';
