@@ -29,6 +29,7 @@ dependencies:
   easy_localization: ^3.0.0
   flutter_dotenv: ^4.0.0-nullsafety.1
   flutter_mobx: ^2.0.0
+  http: ^0.13.3
   json_annotation: ^4.0.1
   json_serializable: ^4.1.0
   kartal: ^2.0.0

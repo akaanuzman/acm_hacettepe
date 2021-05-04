@@ -3,9 +3,10 @@
 
 import 'dart:io';
 
+import 'package:dio/dio.dart';
+
 import '../model/photos_model.dart';
 import 'IPhotosService.dart';
-import 'package:dio/dio.dart';
 
 part 'photos_service_path.dart';
 
